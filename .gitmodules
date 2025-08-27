@@ -1,0 +1,3 @@
+[submodule "todo-service-proto"]
+	path = todo-service-proto
+	url = https://github.com/nowaout1/todo-service-proto.git

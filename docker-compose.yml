@@ -1,0 +1,10 @@
+services:
+  todo-web-api:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      - RUST_LOG=info
